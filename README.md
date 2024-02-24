@@ -5,10 +5,14 @@ Model that indicates platform with green stickers on it on an image
 ```
 python3 git os torch torchvision
 ```
-You should also have MPS installed if you're using MacOS silicon GPU. Installation of MacOS MPS can be found here: https://developer.apple.com/metal/pytorch/
+You should also have MPS installed if you're using MacOS silicon GPU. To enable MPS support, run
+```bash
+pip3 install --pre torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/nightly/cpu
+```
 
 # Usage:
-```
+Run code below in project folder:
+```bash
 python3 src/platform_detector.py
 ```
 

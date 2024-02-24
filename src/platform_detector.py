@@ -149,7 +149,7 @@ def platform_detector():
         momentum=0.9,
         weight_decay=0.0005
     )
-    num_epochs = 1
+    num_epochs = 25
     for epoch in range(num_epochs):
         print('Current epoch: ' + str(epoch + 1))
         for mode in ['training', 'validation']:

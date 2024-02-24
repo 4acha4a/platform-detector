@@ -3,7 +3,7 @@ Model that indicates platform with green stickers on it on an image
 
 # Prerequisites
 ```
-python3 git os torch torchvision
+python3 git tqdm torch torchvision
 ```
 You should also have MPS installed if you're using MacOS silicon GPU. To enable MPS support, run
 ```bash
